@@ -21,6 +21,7 @@ class AppAsset extends AssetBundle
         'css/site.css',
     ];
     public $js = [
+        'https://cdnjs.cloudflare.com/ajax/libs/ace/1.1.9/ace.js'
     ];
     public $depends = [
         'yii\web\YiiAsset',
