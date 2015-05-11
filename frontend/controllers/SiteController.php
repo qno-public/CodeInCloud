@@ -12,7 +12,6 @@ use yii\web\BadRequestHttpException;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
-use app\models\Source;
 
 /**
  * Site controller
@@ -168,15 +167,5 @@ class SiteController extends Controller
         return $this->render('resetPassword', [
             'model' => $model,
         ]);
-    }
-
-    public function actionSources()
-    {
-        $source = new Source;
-        $data = $source->find()->all();
-        echo $this->render('sources', array(
-            'data' => $data
-        ));
-
     }
 }
