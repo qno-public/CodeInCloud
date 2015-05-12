@@ -28,6 +28,4 @@
     <?php endforeach; ?>
 </table>
 
-<div id="editor">
-cout << "Hello world!";
-</div>
+<?= yii\helpers\Html::textarea('', '', ['data-editor' => 'html', 'data-read-only' => false]) ?>
