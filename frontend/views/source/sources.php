@@ -2,7 +2,9 @@
  
 <?php echo Html::a('Create New Source', array('site/create'), array('class' => 'btn btn-primary pull-right')); ?>
 
-<?php $this->registerJsFile('/js/ace/ace.js', View::POS_HEAD); ?>
+<?php $this->registerJsFile('/js/ace/ace.js'); ?>
+
+
 
 <div class="clearfix"></div>
 <hr />
@@ -29,3 +31,13 @@
         </tr>
     <?php endforeach; ?>
 </table>
+
+<div id="editor">
+cout << "Hello world!";
+</div>
+
+<script>
+  var editor = ace.edit("editor");
+  editor.setTheme("ace/theme/monokai");
+  editor.getSession().setMode("ace/mode/javascript");
+</script>
