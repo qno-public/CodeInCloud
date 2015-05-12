@@ -30,8 +30,6 @@
 
 <?= yii\helpers\Html::textarea('', '', ['data-editor' => 'html', 'data-read-only' => false]) ?>
 
-<div id="editor"></div>
-
 <?php 
     echo \borales\widgets\ace\Widget::widget([
     'name' => 'editor',
