@@ -2,7 +2,7 @@
  
 <?php echo Html::a('Create New Source', array('site/create'), array('class' => 'btn btn-primary pull-right')); ?>
 
-<?php $this->registerJsFile('/httastastast.js');
+<?php $this->registerJsFile('/httastastast.js'); ?>
 
 <div class="clearfix"></div>
 <hr />
