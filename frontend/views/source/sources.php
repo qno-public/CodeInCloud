@@ -1,6 +1,9 @@
 <?php use yii\helpers\Html; ?>
  
 <?php echo Html::a('Create New Source', array('site/create'), array('class' => 'btn btn-primary pull-right')); ?>
+
+<?php Yii::app()->clientScript->registerScriptFile("/path/to/file.js"); ?>
+
 <div class="clearfix"></div>
 <hr />
 <table class="table table-striped table-hover">
