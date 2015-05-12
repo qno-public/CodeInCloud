@@ -28,8 +28,6 @@
     <?php endforeach; ?>
 </table>
 
-<?= yii\helpers\Html::textarea('', '', ['data-editor' => 'html', 'data-read-only' => false]) ?>
-
 <?php 
     echo \borales\widgets\ace\Widget::widget([
     'name' => 'editor',
