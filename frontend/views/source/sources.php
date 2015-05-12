@@ -2,11 +2,6 @@
  
 <?php echo Html::a('Create New Source', array('site/create'), array('class' => 'btn btn-primary pull-right')); ?>
 
-<?php $this->registerJsFile('/js/plugins/ace/ace.js'); ?>
-<?php $this->registerJsFile('/js/site/source/source.js'); ?>
-
-
-
 <div class="clearfix"></div>
 <hr />
 <table class="table table-striped table-hover">
