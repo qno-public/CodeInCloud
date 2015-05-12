@@ -2,7 +2,7 @@
  
 <?php echo Html::a('Create New Source', array('site/create'), array('class' => 'btn btn-primary pull-right')); ?>
 
-<?php $this->registerJsFile('/js/ace/ace.js'); ?>
+<?php $this->registerJsFile('/js/ace/ace.js', [POS_HEAD]); ?>
 
 <div class="clearfix"></div>
 <hr />
