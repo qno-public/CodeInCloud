@@ -8,8 +8,6 @@ use devgroup\ace\AceHelper
 
 class SourceController extends Controller
 {
-	AceHelper::setAceScript(controller, theme);
-	
 	public function actionIndex()
     {
     	
