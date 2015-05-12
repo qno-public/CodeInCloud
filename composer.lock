@@ -4,8 +4,52 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d93766106cfd06a20a81c086e3feca97",
+    "hash": "0095bc699d238cdd88bdeda14c03b7cf",
     "packages": [
+        {
+            "name": "borales/yii2-ace-widget",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Borales/yii2-ace-widget.git",
+                "reference": "489dffb988cbbbc9577ed0aae6c582459317aac9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Borales/yii2-ace-widget/zipball/489dffb988cbbbc9577ed0aae6c582459317aac9",
+                "reference": "489dffb988cbbbc9577ed0aae6c582459317aac9",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/ace-builds": "~1.1",
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "borales\\widgets\\ace\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Borales (Alexandr Bordun)",
+                    "email": "bordun.alexandr@gmail.com"
+                }
+            ],
+            "description": "Yii2 Ace (Ajax.org Cloud9 Editor) Widget",
+            "homepage": "https://github.com/Borales/yii2-ace-widget",
+            "keywords": [
+                "Cloud9 Editor",
+                "ace",
+                "ace-editor",
+                "yii2"
+            ],
+            "time": "2015-02-01 02:07:30"
+        },
         {
             "name": "bower-asset/ace-builds",
             "version": "v1.1.9",
@@ -290,59 +334,6 @@
                 "markdown-extra"
             ],
             "time": "2015-03-06 05:28:07"
-        },
-        {
-            "name": "devgroup/yii2-ace-widget",
-            "version": "1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/DevGroup-ru/yii2-ace-widget.git",
-                "reference": "f8c7025fcab6b1bf6b8dff790c17affbec679bff"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/DevGroup-ru/yii2-ace-widget/zipball/f8c7025fcab6b1bf6b8dff790c17affbec679bff",
-                "reference": "f8c7025fcab6b1bf6b8dff790c17affbec679bff",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/ace-builds": "~1.1",
-                "yiisoft/yii2": "2.0.*"
-            },
-            "require-dev": {
-                "yiisoft/yii2-debug": "2.0.*"
-            },
-            "type": "yii2-extension",
-            "autoload": {
-                "psr-4": {
-                    "devgroup\\ace\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Alexander Kozhevnikov",
-                    "email": "b37hr3z3n@gmail.com"
-                },
-                {
-                    "name": "Evgeny Dubovitsky",
-                    "email": "flynn068@gmail.com"
-                },
-                {
-                    "name": "Pavel Fedotov",
-                    "email": "fps.06@mail.ru"
-                }
-            ],
-            "description": "Yii2 ACE widget",
-            "keywords": [
-                "ace",
-                "ace-editor",
-                "yii2"
-            ],
-            "time": "2015-01-16 07:20:20"
         },
         {
             "name": "ezyang/htmlpurifier",
