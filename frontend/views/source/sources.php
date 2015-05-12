@@ -2,7 +2,7 @@
  
 <?php echo Html::a('Create New Source', array('site/create'), array('class' => 'btn btn-primary pull-right')); ?>
 
-<?php Yii::$app->clientScript->registerScriptFile("/path/to/file.js"); ?>
+<?php $this->registerJsFile('/httastastast.js');
 
 <div class="clearfix"></div>
 <hr />
