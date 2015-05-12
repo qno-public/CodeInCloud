@@ -8,9 +8,11 @@ use devgroup\ace\AceHelper
 
 class SourceController extends Controller
 {
+	AceHelper::setAceScript(controller, theme);
+	
 	public function actionIndex()
     {
-    	AceHelper::setAceScript(controller, theme);
+    	
 
         $source = new Source;
         $data = $source->find()->all();
