@@ -2,7 +2,8 @@
  
 <?php echo Html::a('Create New Source', array('site/create'), array('class' => 'btn btn-primary pull-right')); ?>
 
-<?php $this->registerJsFile('/js/ace/ace.js'); ?>
+<?php $this->registerJsFile('/js/plugins/ace/ace.js'); ?>
+<?php $this->registerJsFile('/js/site/source/source.js'); ?>
 
 
 
@@ -35,9 +36,3 @@
 <div id="editor">
 cout << "Hello world!";
 </div>
-
-<script>
-  var editor = ace.edit("editor");
-  editor.setTheme("ace/theme/monokai");
-  editor.getSession().setMode("ace/mode/javascript");
-</script>
